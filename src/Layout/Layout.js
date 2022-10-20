@@ -11,7 +11,7 @@ const pages = [
   { title: "contact", path: "/contact" },
   {
     title: "upload",
-    path: "",
+    path: "https://frozen-woodland-36778.herokuapp.com/admin/",
   },
 ];
 
