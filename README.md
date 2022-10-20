@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**Child photographer** is an online portfolio showcasing the work of a children's photographer based in Moscow.
 
-## Getting Started
+[Website]()
 
-First, run the development server:
+## Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [Next.js](https://nextjs.org) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
+- [MUI](https://mui.com) - A comprehensive suite of UI tools to help you ship new features faster.
+- [Strapi](https://strapi.com) - Headless CMS, open-source, javascript, enabling content-rich experiences to be created, managed and exposed to any digital device.
+- [Vercel](https://vercel.com) - Is the platform for frontend developers.
+- [Heroku](https://heroku.com) - Is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Content management powered by [Strapi](https://strapi.io) headless CMS.
+- Static pre-rendered pages with [Incremental Static Regeneration](https://vercel.com/docs/concepts/next.js/incremental-static-regeneration) (ISR).
+- Contact form integrated with [Sendgrid](https://sendgrid.com) API.
+- Responsive photo gallery with synchronized thumbnail controls and scrolling into view on smaller viewports.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Project structure
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- `pages/api/*` - [API Routes](https://nextjs.org/blog/next-9#api-routes) powering contact form submissions.
+- `pages/work*` - Static pre-rendered photo gallery pages generated with data fetched from Strapi.
+- `pages/*` - All other static pages.
+- `src/components/*` - Various components used throughout the site.
+- `src/lib/*` - Code for Strapi services.
+- `src/utils/*` - Utilities for photo gallery thumnbail scrolling.
+- `src/theme.js` - MUI custom component styles for application.
+- `public/*` - Static assets.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
