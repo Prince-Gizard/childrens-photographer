@@ -28,3 +28,4 @@
 - `src/theme.js` - MUI custom component styles for application.
 - `public/*` - Static assets.
 
+## Screenshot
