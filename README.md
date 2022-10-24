@@ -1,6 +1,6 @@
 **Child photographer** is an online portfolio showcasing the work of a children's photographer based in Moscow.
 
-[Website](https://childrens-photographer.vercel.app/)
+See [website](https://childrens-photographer.vercel.app/) demo
 
 ## Stack
 
