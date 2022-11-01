@@ -34,7 +34,7 @@ export default class MyDocument extends Document {
           />
           {/* Add in global metadata */}
         </Head>
-        <body style={{ backgroundColor: "#F7F9FC", padding: 0, margin: 0 }}>
+        <body style={{ backgroundColor: "#a9d9da", padding: 0, margin: 0 }}>
           <Main />
           <NextScript />
         </body>
