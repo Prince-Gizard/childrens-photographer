@@ -10,7 +10,7 @@ const Footer = ({ pages }) => {
     <Grid container direction="column" alignItems="center" pb={4}>
       <Grid item>
         <Image
-          src="/images/mama-footer-logo.png"
+          src="/images/main.jpg"
           alt="footer"
           width={155}
           height={55}
