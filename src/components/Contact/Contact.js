@@ -147,7 +147,7 @@ const Contact = () => {
         </Grid>
 
         <Grid item lg={6} sx={{ display: { xs: "none", md: "block" } }}>
-          <Container maxWidth="sm" justify="center">
+          <Container maxWidth="sm">
             <Image
               src="/images/profile-shot.jpg"
               alt="profile"
