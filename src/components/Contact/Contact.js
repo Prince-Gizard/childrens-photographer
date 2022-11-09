@@ -151,7 +151,8 @@ const Contact = () => {
             <Image
               src="/images/profile-shot.jpg"
               alt="profile"
-              justify="center"
+              width={480}
+              height={480}
               priority
             />
           </Container>
