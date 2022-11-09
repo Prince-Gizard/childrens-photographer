@@ -104,7 +104,7 @@ const Contact = () => {
           <Grid item mb={4}>
             <TextField
               id="email"
-              label="Email"
+             label="Email"
               type="email"
               name="email"
               variant="standard"
@@ -149,7 +149,7 @@ const Contact = () => {
         <Grid item lg={6} sx={{ display: { xs: "none", md: "block" } }}>
           <Container maxWidth="sm">
             <Image
-              src="/images/profile-shot.png"
+              src="/images/profile-shot.jpg"
               alt="profile"
               width={640}
               height={427}
