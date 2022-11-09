@@ -147,12 +147,11 @@ const Contact = () => {
         </Grid>
 
         <Grid item lg={6} sx={{ display: { xs: "none", md: "block" } }}>
-          <Container maxWidth="sm">
+          <Container maxWidth="sm" justify="center">
             <Image
               src="/images/profile-shot.jpg"
               alt="profile"
-              width={640}
-              height={427}
+              justify="center"
               priority
             />
           </Container>
