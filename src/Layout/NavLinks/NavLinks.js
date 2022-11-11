@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useTheme, Button, IconButton } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import TelegramIcon from '@mui/icons-material/Telegram';
 
 const NavLinks = ({ pages, handleClose }) => {
   const router = useRouter();
@@ -43,6 +44,22 @@ const NavLinks = ({ pages, handleClose }) => {
         }}
       >
         <InstagramIcon fontSize="small" />
+      </IconButton>
+      <IconButton
+        color="secondary"
+        aria-label="telegram"
+        href="https://www.telegram.com/"
+        target="_blank"
+        onClick={handleClose}
+        disableRipple
+        sx={{
+          "&:hover": {
+            color: theme.palette.primary.main,
+            backgroundColor: "transparent",
+          },
+        }}
+      >
+        <TelegramIcon fontSize="small" />
       </IconButton>
     </>
   );

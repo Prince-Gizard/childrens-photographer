@@ -21,7 +21,7 @@ const TopBar = ({ open, handleClickOpen, handleClose, pages }) => {
                 <Box
                   component="img"
                   src="/images/main.jpg"
-                  sx={{ width: 280 }}
+                  sx={{ width: 200 }}
                 />
               </Box>
             </Link>

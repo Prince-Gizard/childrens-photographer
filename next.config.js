@@ -1,5 +1,5 @@
 module.exports = {
   images: {
-    domains: ["localhost", "res.cloudinary.com"],
+    domains: ["NEXT_PUBLIC_STRAPI_API_URL"],
   },
 };
