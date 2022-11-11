@@ -1,5 +1,5 @@
 module.exports = {
   images: {
-    domains: ["NEXT_PUBLIC_STRAPI_API_URL"],
+    domains: ["frozen-woodland-36778.herokuapp.com"],
   },
 };
