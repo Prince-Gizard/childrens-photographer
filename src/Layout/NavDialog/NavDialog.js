@@ -18,7 +18,7 @@ const NavDialog = ({ openNavDialog, handleClose, pages }) => {
         sx={{
           "& .MuiPaper-root": {
             justifyContent: "center",
-            bgcolor: "#F7F9FC",
+            bgcolor: "#a9d9da",
           },
         }}
       >
