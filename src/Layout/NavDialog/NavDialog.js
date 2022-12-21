@@ -53,7 +53,7 @@ const NavDialog = ({ openNavDialog, handleClose, pages }) => {
         <IconButton
           color="secondary"
           aria-label="instagram"
-          href="https://www.instagram.com/"
+          href="https://instagram.com/ollesya.lesya?igshid=YmMyMTA2M2Y="
           target="_blank"
           onClick={handleClose}
           disableRipple
@@ -69,7 +69,7 @@ const NavDialog = ({ openNavDialog, handleClose, pages }) => {
         <IconButton
         color="secondary"
         aria-label="telegram"
-        href="https://www.telegram.com/"
+        href="https://t.me/ollesya_lesya"
         target="_blank"
         onClick={handleClose}
         disableRipple
